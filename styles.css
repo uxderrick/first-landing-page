@@ -1,0 +1,98 @@
+* {
+    background-color:#1F2937;
+    margin: auto;
+}
+
+.nav {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    height: 80px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    color: white;
+    font-family: 'Tahoma';
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.hero-section {
+    height: 100vh;
+    background-color: #1F2937;
+    display: flex;
+    padding: 0px auto 0px auto;
+    flex-wrap: wrap;
+    /* min-width: 50%; */
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-side-block {
+    background-color: tan;
+    /* height: 400px; */
+    flex: 1;
+    width: 300px;
+}
+
+.hero-middle-block {
+    width: 500px;
+    flex: 3;
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-placeholder {
+    background-color: yellow;
+    height: 200px;
+    flex: 1.5;
+    background-image: url("/assets/ghana.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-placeholder img {
+    object-fit: cover;
+}
+
+.hero-text-block {
+    background-color: wheat;
+    height: 300px;
+    flex: 1;
+    width: 300px;
+}
+
+
+
+.second-section {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+
+.third-section {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+}
+
+.forth-section {
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+}
+
+.fifth-section {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+}
