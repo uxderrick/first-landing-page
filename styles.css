@@ -28,9 +28,8 @@ a {
     height: 100vh;
     background-color: #1F2937;
     display: flex;
-    padding: 0px auto 0px auto;
+    /* padding: 0px auto 0px auto; */
     flex-wrap: wrap;
-    /* min-width: 50%; */
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -38,23 +37,23 @@ a {
 
 .hero-side-block {
     background-color: tan;
-    /* height: 400px; */
     flex: 1;
     width: 300px;
 }
 
 .hero-middle-block {
-    width: 500px;
     flex: 3;
     margin: 24px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    /* background-color: wheat; */
 }
 
 .hero-placeholder {
     background-color: yellow;
     height: 200px;
-    flex: 1.5;
+    /* width: 500px; */
+    flex: 1;
     background-image: url("/assets/ghana.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,13 +64,41 @@ a {
 }
 
 .hero-text-block {
-    background-color: wheat;
-    height: 300px;
+    /* background-color: wheat; */
+    /* height: 300px; */
     flex: 1;
     width: 300px;
+    margin-right: 24px;
 }
 
+h1 {
+    font-family: 'Tahoma';
+    color: #F9FAF8;
+}
 
+p {
+    font-family: 'Tahoma';
+    font-weight: 200;
+    color: #F9FAF8;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #3882F6;
+    height: 40px;
+    width: 100px;
+    border-radius: 24px;
+    color: #F9FAF8;
+    border: 0px;
+}
+
+button:hover {
+    background-color: #6795df;
+}
+
+.spacer {
+    height: 16px;
+}
 
 .second-section {
     height: 400px;
