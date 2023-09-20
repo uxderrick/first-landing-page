@@ -1,6 +1,7 @@
 * {
-    background-color:#1F2937;
     margin: auto;
+    font-family: 'Tahoma';
+
 }
 
 .nav {
@@ -19,7 +20,6 @@
 
 a {
     color: white;
-    font-family: 'Tahoma';
     text-decoration: none;
     font-size: 12px;
 }
@@ -28,9 +28,8 @@ a {
     height: 100vh;
     background-color: #1F2937;
     display: flex;
-    /* padding: 0px auto 0px auto; */
     flex-wrap: wrap;
-    height: 800px;
+    height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -44,19 +43,19 @@ a {
 .hero-middle-block {
     flex: 3;
     margin: 24px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
+    flex-wrap: wrap;
     /* background-color: wheat; */
 }
 
 .hero-placeholder {
-    /* background-color: yellow; */
     height: 200px;
-    /* width: 500px; */
     flex: 1;
     background-image: url("/assets/ghana.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 360px;
 }
 
 .hero-placeholder img {
@@ -64,20 +63,22 @@ a {
 }
 
 .hero-text-block {
-    /* background-color: wheat; */
-    /* height: 300px; */
     flex: 1;
     width: 300px;
     margin-right: 24px;
 }
 
 h1 {
-    font-family: 'Tahoma';
+    font-size: 40px;
     color: #F9FAF8;
 }
 
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
 p {
-    font-family: 'Tahoma';
     font-weight: 200;
     color: #F9FAF8;
     line-height: 1.5;
@@ -101,25 +102,132 @@ button:hover {
 }
 
 .second-section {
-    height: 400px;
+    height: fit-content;
     width: 100%;
     background-color: white;
+    padding: 100px 0px 100px 0px;
+}
+
+.s2-card {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    margin: 16px;
+}
+
+.s2-card-row {
+    display: flex;
+    padding: 32px 140px 0px 140px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s2-image {
+    height: 120px;
+    width: 120px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.s2-text {
+    color: #1F2937;
+    padding-top: 8px;
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .third-section {
-    height: 400px;
+    height: fit-content;
     width: 100%;
-    background-color: red;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-all {
+    margin: 120px 0px 120px 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    gap: 24px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    font-family: Gill Sans;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Gill Sans;
+    text-align: center;
 }
 
 .forth-section {
-    height: 400px;
+    height: fit-content;
     width: 100%;
-    background-color: blue;
+    background-color: white;
+    display: flex;
+    justify-content: center;
 }
 
-.fifth-section {
-    height: 400px;
+.s4-banner {
+    background-color: #3882F6;
+    height: fit-content;
     width: 100%;
-    background-color: red;
+    max-width: 800px;
+    border-radius: 8px;
+    margin: 80px;
+    padding: 24px 40px 24px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s4-banner-text {
+    width: fit-content;
+    margin: 0px;
+}
+
+h4 {
+    text-align: start;
+    font-size: 16px;
+    padding-bottom: 8px;
+    color: #F9FAF8;
+}
+
+.banner-paragraph {
+    text-align: start;
+    font-size: 14px;
+}
+
+.banner-button {
+    background-color: #3882F6;
+    height: 40px;
+    width: 200px;
+    border-radius: 24px;
+    border: 2px solid;
+    margin: 24px 0 24px 0;
+}
+
+.banner-button:hover {
+    background-color: #6795df;
+}
+
+
+.fifth-section {
+    height: 120px;
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+
 }
