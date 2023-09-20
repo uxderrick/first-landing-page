@@ -52,7 +52,7 @@ a {
 .hero-placeholder {
     height: 200px;
     flex: 1;
-    background-image: url("/assets/ghana.jpeg");
+    background-image: url("https://lp-cms-production.imgix.net/2023-02/shutterstock_editorial_1861397785.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 360px;
